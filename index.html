@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valorant – moje oblíbená hra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Valorant</h1>
+    <p class="intro">
+      Valorant je taktická střílečka od Riot Games, která kombinuje
+      přesnou střelbu s unikátními schopnostmi agentů. Hraji ji od roku 2021
+      a stala se mojí oblíbenou hrou.
+    </p>
+  </header>
+
+  <main>
+
+    <section id="o-hre">
+      <h2>O hře</h2>
+      <p>
+        Valorant je free-to-play taktická FPS hra vydaná v roce 2020.
+        Dva týmy po pěti hráčích se střetávají v různých herních módech.
+        Útočníci se snaží umístit výbušninu, obránci ji musí zneškodnit.
+      </p>
+    </section>
+
+    <section id="agenti">
+      <h2>Moji oblíbení agenti</h2>
+      <p>Každý agent má unikátní schopnosti rozdělené do čtyř rolí. Moji oblíbenci:</p>
+      <ul>
+        <li><strong>Jett</strong> – duelist, rychlá a pohyblivá agentka</li>
+        <li><strong>Sage</strong> – sentinel, léčitelka a opora týmu</li>
+        <li><strong>Omen</strong> – kontrolér, mistr stínů a teleportace</li>
+        <li><strong>Reyna</strong> – duelist, agresivní hráčka zaměřená na kills</li>
+      </ul>
+    </section>
+
+    <section id="tipy">
+      <h2>Tipy pro začátečníky</h2>
+      <ol>
+        <li>Trénuj míření každý den v tréninkové místnosti</li>
+        <li>Komunikuj s týmem – callouts jsou klíčové</li>
+        <li>Nezapomínej na ekonomiku – spravuj si peníze</li>
+        <li>Hraj jednoho agenta, dokud ho neovládneš perfektně</li>
+        <li>Sleduj profesionální hráče a uč se od nich</li>
+      </ol>
+    </section>
+
+    <section id="interakce">
+      <h2>Jak se cítím při hraní?</h2>
+      <p id="mood-text">Klikni na tlačítko a zjisti, jak to chodí!</p>
+      <button id="mood-btn" onclick="changeMood()">Spustit hru</button>
+      <p>Počet kliknutí: <span id="click-count">0</span></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      Více informací najdeš na
+      <a href="https://playvalorant.com" target="_blank">officiálním webu Valorantu</a>.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
